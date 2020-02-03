@@ -14,7 +14,7 @@ public class HelloWorld
 
       try {
         File file = new File("c:/temp/files.txt");
-        FileWriter fr = new FileWriter(file, true);
+        FileWriter fr = new FileWriter(file, true); // append to file
         fr.write(data + "\n");
         fr.close();
       } 
